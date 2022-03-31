@@ -9,9 +9,14 @@ const Friend = ({ friend }) => {
     navigate(path);
   };
   return (
-    <div>
-      <h2>Name: {name}</h2>
-      <button onClick={showFriendDetails}>{username}</button>
+    <div className="mt-4">
+      <h2 className="text-cl">Name: {name}</h2>
+      <button
+        className="bg-red-500 py-1 px-2 text-white rounded"
+        onClick={showFriendDetails}
+      >
+        {username}
+      </button>
     </div>
   );
 };

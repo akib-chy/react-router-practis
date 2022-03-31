@@ -10,7 +10,7 @@ const Friends = () => {
   }, []);
   return (
     <div>
-      <h2>This Is Friends Section</h2>
+      <h2 className="text-4xl">This Is Friends Section</h2>
       {friends.map((friend) => (
         <Friend friend={friend} key={friend.id}></Friend>
       ))}

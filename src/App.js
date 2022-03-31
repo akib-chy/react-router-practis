@@ -5,11 +5,12 @@ import About from "./Components/About/About";
 import Friends from "./Components/Friends/Friends";
 import { Route, Routes } from "react-router-dom";
 import NotFound from "./Components/NotFound/NotFound";
+import Header from "./Components/Header/Header";
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome TO React Router</h1>
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/friends" element={<Friends />} />
