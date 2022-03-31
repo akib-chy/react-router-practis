@@ -12,8 +12,8 @@ function App() {
       <h1>Welcome TO React Router</h1>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Friends" element={<Friends />} />
-        <Route path="/About" element={<About />} />
+        <Route path="/friends" element={<Friends />} />
+        <Route path="/about" element={<About />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       {/* <Home />
